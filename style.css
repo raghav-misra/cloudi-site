@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Staatliches|Major+Mono+Display|Jura');
+
+#cloudi{
+  display:block;
+  font-size: 100px;
+}
+
+#content{
+  z-index: 1;
+}
+
+#cloudi2{
+  font-family: Major Mono Display;
+  font-size: 200% !important;
+}
+
+#cloudlogo{
+  color: #003366;
+}
+
+#dollar{
+  color: rgb(45, 221, 45);
+  font-size: 17.5px;
+  margin-left:5px;
+  margin-right: 5px;
+}
+
+#goldstar{
+  color:rgb(226, 162, 0);
+}
+
+.subcard i{
+  font-size: 30px;
+  padding-bottom: 7.5px;
+  
+}
+
+.card.modern .subcard .headtext{
+  font-family: Staatliches, sans-serif;
+  
+}
+
+.card.modern .subcard{
+  text-align: center;
+  -webkit-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+          box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  display: inline-block;
+  padding: 25px;
+  width: 150px;
+  height: 150px;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  margin: 10px;
+  border: solid transparent 2.5px;
+}
+.card.modern .subcard:hover{
+  border: solid 2.5px #0052A1;
+
+}
+
+
+h1 i{
+  font-size: 17.5px;
+  position: relative;
+  bottom: 3.75px;
+}
+
+.h2{
+  display: inline-block;
+  font-family: Oswald, sans-serif;
+  font-size: 20px;
+}
+
+.main{
+  text-align: center;
+	font-family: 'Major Mono Display', sans-serif;
+	background-color: white;
+	color: #003366;
+  padding-bottom: 100%;
+  
+	-webkit-transition: all 2s ease-in-out;
+  
+	-o-transition: all 2s ease-in-out;
+  
+	transition: all 2s ease-in-out;
+}
+
+
+.subtext{
+  font-size: 300%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-animation: textout 1.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+          animation: textout 1.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  
+}
+
+.ignore{
+  -webkit-animation: none !important;
+          animation: none !important;
+}
+.main #cloudi{
+  vertical-align: middle;
+  -webkit-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+    opacity: 0;
+    font-family: 'Major Mono Display', sans-serif;
+    -webkit-animation: textin 1s;
+            animation: textin 1s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    margin: 0;
+    padding: -500px;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+}
+.impacttext{
+  font-size: 200%;
+}
+html{
+  overflow: hidden;
+  
+  
+}
+video{
+  width: 100%;
+  height:100%;
+}
+
+#h{
+  background-color: white;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.main span{
+  font-family: "Oswald";
+}
+.content{
+  background-color: white;
+ 
+}
+.inout{
+  -webkit-animation: 2s inout;
+          animation: 2s inout;
+}
+@-webkit-keyframes inout{
+  0%{opacity: 0}
+  50%{opacity: 0}
+  100%{opacity: 1}
+}
+@keyframes inout{
+  0%{opacity: 0}
+  50%{opacity: 0}
+  100%{opacity: 1}
+}
+@-webkit-keyframes fontsize{
+  from{width: 100%;height: 100%;}
+  to{ width: 0%; height:0%;}
+}
+@keyframes fontsize{
+  from{width: 100%;height: 100%;}
+  to{ width: 0%; height:0%;}
+}
+/* Cursor */
+.typed-cursor {
+  display: none !important;
+}
+@-webkit-keyframes textout {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+}
+@keyframes textout {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+}
+
+#con{
+  padding: 25px;
+  line-height:0;
+}
+
+@-webkit-keyframes textin {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+   100% {
+    padding-top: 15%;
+    opacity: 1;
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@keyframes textin {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+   100% {
+    padding-top: 15%;
+    opacity: 1;
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+
+
+/* OBLIVION UI ================*/
+/* Buttons*/
+.btn.swipe .primary, .btn.swipe .secondary{
+		font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.btn.swipe .secondary{
+	display: none;
+}
+
+.btn.swipe:hover .secondary{
+	display: block;
+	-webkit-animation: fade-in 1s;
+	        animation: fade-in 1s;
+}
+
+.btn.swipe .primary{
+	display:block;
+	-webkit-animation: swipe-out 1s;
+	        animation: swipe-out 1s;
+}
+
+.btn.swipe:hover .primary{
+	-webkit-animation: swipe-out 1s;
+	        animation: swipe-out 1s;
+	display:none;
+}
+
+.btn.flip:hover{
+	-webkit-animation: flip 2s;
+	        animation: flip 2s;
+}
+
+header{
+  text-align:center; 
+  padding: 10px;
+  background-color: white;
+}
+
+header #ttl{
+  font-family: 'Major Mono Display', sans-serif;
+  font-size: 50px;
+}
+
+#iframehtml, #iframehtml body{
+  background-color: #003366;
+  overflow-y: auto;
+}
+
+iframe, .content, body, html{
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  border: none;
+  scroll-behavior: smooth;
+}
+
+#main{
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.btn.round{
+	border-radius: 25px;
+}
+.btn.round:hover{
+	-webkit-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn.slant:hover{
+	-webkit-animation: slant 3s;
+	        animation: slant 3s;
+}
+
+#vid-display{
+  width:60%;
+}
+
+.btn.vidchoice{
+  width: 200px;
+}
+
+.btn.slant{
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+}
+.btn{
+	display: inline-block;
+	height: 20%;
+	background-color: white;
+	border: 2.5px #013467 solid;
+	padding: 10px;
+  vertical-align: baseline;
+	font-family: 'Oswald', sans-serif;
+	font-size: 13px;
+	color: #013467;
+	-webkit-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	text-transform: uppercase;
+	outline: none;
+}
+.btn:hover{
+	background-color: #013467;
+	color: white;
+}
+@-webkit-keyframes slant {
+  33.3% {
+		-webkit-transform: skewX(5deg) skewY(5deg);
+    transform: skewX(5deg) skewY(5deg);
+  }
+  99.9% {
+		-webkit-transform: skewX(-5deg) skewY(-5deg);
+    transform: skewX(-5deg) skewY(-5deg);
+	}
+}
+@keyframes slant {
+  33.3% {
+		-webkit-transform: skewX(5deg) skewY(5deg);
+    transform: skewX(5deg) skewY(5deg);
+  }
+  99.9% {
+		-webkit-transform: skewX(-5deg) skewY(-5deg);
+    transform: skewX(-5deg) skewY(-5deg);
+	}
+}
+
+@-webkit-keyframes swipe-out{
+	0%{
+		z-index: -5;
+		-webkit-transform: translateX(-2000px);
+		        transform: translateX(-2000px);
+	}
+}
+
+@keyframes swipe-out{
+	0%{
+		z-index: -5;
+		-webkit-transform: translateX(-2000px);
+		        transform: translateX(-2000px);
+	}
+}
+
+@-webkit-keyframes flip{
+	0%{
+    
+		-webkit-transform: rotateY(180deg);
+    
+		        transform: rotateY(180deg);
+    
+	}
+	98%{
+
+		-webkit-transform: rotateY(0deg);
+
+		        transform: rotateY(0deg);
+  
+ 
+	}
+}
+
+@keyframes flip{
+	0%{
+    
+		-webkit-transform: rotateY(180deg);
+    
+		        transform: rotateY(180deg);
+    
+	}
+	98%{
+
+		-webkit-transform: rotateY(0deg);
+
+		        transform: rotateY(0deg);
+  
+ 
+	}
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+		opacity: 0;
+  }
+  100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fade-in {
+  0% {
+		opacity: 0;
+  }
+  100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fade-in-up {
+  0% {
+		opacity: 0;
+    position: relative;
+    top: 50px;
+  }
+  100% {
+		opacity: 1;
+    position: relative;
+    top: 0px;
+	}
+}
+
+@-webkit-keyframes fade-in-up {
+  0% {
+		opacity: 0;
+    position: relative;
+    top: 50px;
+  }
+  100% {
+		opacity: 1;
+    position: relative;
+    top: 0px;
+	}
+}
+
+
+
+@-webkit-keyframes slide-in-from-top{
+  0%{position: relative; top: 100%;}
+  100%{position: relative; top: 0;}
+}
+
+
+
+@keyframes slide-in-from-top{
+  0%{position: relative; top: 100%;}
+  100%{position: relative; top: 0;}
+}
+
+.fade-in{
+	-webkit-animation: fade-in 3s;
+	        animation: fade-in 3s;
+}
+
+@-webkit-keyframes fade-out {
+  0% {
+		opacity: 1;
+  }
+  100% {
+		opacity: 0;
+	}
+}
+
+@keyframes fade-out {
+  0% {
+		opacity: 1;
+  }
+  100% {
+		opacity: 0;
+	}
+}
+
+.fade-out{
+	-webkit-animation: fade-out 3s;
+	        animation: fade-out 3s;
+}
