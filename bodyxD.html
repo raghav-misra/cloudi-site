@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <title>Cloudi</title>
+		<link rel="stylesheet" href="reusable.css">
+    <link href="style.css" rel="stylesheet" />
+    <link href="more_style.css" rel="stylesheet">
+   
+    
+  </head>
+  <body id="iframehtml">
+    <header>
+      <span id="obttl">Oblivion<hr></span><br>
+      <span id="ttl">cloudi</span><hr>
+			<div class="tab-container">
+        <button onclick="location.href='#about'" class="icon modern btn"><i id="cloudlogo" class="fas fa-cloud"></i>&nbsp;&nbsp;About</button>
+			</div>
+      <div class="tab-container">
+        <button onclick="location.href='#features'" class="icon modern btn"><i id="goldstar" class="fas fa-star"></i>&nbsp;&nbsp;Features</button>
+      </div>
+         <div class="tab-container">
+        <button onclick="location.href='#videos'" class="icon modern btn"><i id="demo-icon" class="fas fa-video"></i>&nbsp;&nbsp;Demos</button>
+      </div>
+       <div class="tab-container">
+        <button onclick="location.href='#price'" class="icon modern btn"><i id="dollar" class="fas fa-dollar-sign"></i>&nbsp;&nbsp;Pricing</button>
+      </div>
+      <div class="tab-container">
+        <button onclick="location.href='#founders'" class="icon modern btn"><i id="founderrz" class="fas fa-user"></i>&nbsp;&nbsp;Founders</button>
+      </div>
+    </header>
+    <br><br><br>
+      <div id='about' data-aos="fade" style="text-align: center;" class="card modern">
+        <h1>Why Cloudi? <i id="cloudlogo" class="fas fa-cloud"></i></h1>
+        <span class="h2"> - A powerful computer at your fingertips -</span>
+        <hr>
+        <div style="width:70%; display: inline-block;">
+         Cloudi is a scalable, multi-platform service that allows you to create and access a personal computer system from any device, and at any time. Before Cloudi, running graphics/CPU-heavy apps on a portable device (laptop, phone, tablet) was nearly impossible. Now, you can do all of that regardless of your devices' processing power, hardware, etc.
+        </div>
+		</div>
+    <br><br><br>
+    <div id="features" data-aos="zoom-in-up" class="card modern" style="text-align: center;">
+        <h1>What We Offer <i id="goldstar" class="fas fa-star"></i></h1>
+        <span class="h2"> - Cloudi's inbuilt features -</span>
+        <hr>
+        <div  onmouseover="hover(f1, d1, i1) " onmouseout="outhover(f1, d1, i1)" class="subcard">
+          <div id='f1' class="filter">
+            <hr>
+            <i id='i1' class="icon fa fa-globe"></i><br>
+            <span class="headtext">Global<br>Access</span>
+            <hr>
+          </div>
+          <span id='d1' class="description">
+           24/7 Access to your Cloudi session from anywhere. No downtime, our guarantee. All you need is an internet connection and a web browser/Cloudi app.
+          </span>
+        </div>
+         <div id="securesub" onmouseover="hover(f2, d2, i2) " onmouseout="outhover(f2, d2, i2)" class="subcard">
+          <div id='f2' class="filter">
+            <hr>
+            <i id='i2'class="icon fa fa-fingerprint"></i><br>
+            <span class="headtext">Uncrackable<br>Security</span>
+            <hr>
+          </div>
+          <span id='d2'class="description">
+           Secure end-to-end encryption ensures your security during a Cloudi session. Cloudi's built-in antivirus protects all aspects of your session.
+          </span>
+        </div>
+        <div onmouseover="hover(f3, d3, i3) " onmouseout="outhover(f3, d3, i3)"class="subcard">
+          <div id='f3' class="filter">
+            <hr>
+            <i id='i3'class="fas fa-memory"></i><br>
+            <span class="headtext">Latest<br>Technology</span>
+            <hr>
+          </div>
+          <span id='d3' class="description">
+          All of our computers have the latest hardware specs and software so that your Cloudi session is always fast and capable.
+          </span>
+        </div>
+         <div onmouseover="hover(f4, d4, i4) " onmouseout="outhover(f4, d4, i4)"class="subcard">
+           <div id='f4'class="filter">
+            <hr>
+            <i  id='i4'class="icon fa fa-sync-alt"></i><br>
+            <span class="headtext">Easily<br>Adaptable</span>
+            <hr>
+          </div>
+          <span id='d4' class="description"> 
+           Easily transfer files to and from your Cloud PC. Use another computer? No problem! Your data can be instantly transfered to a different session or OS.
+          </span>
+        </div>
+    </div>
+    <br><br><br>
+      <div id='videos' data-aos="fade-in-up" style="text-align: center;" class="card modern">
+        <h1>View Demos <i id="demo-icon" class="fas fa-video"></i></i></h1>
+        <span class="h2"> - View demo streams of Cloudi in action! -</span>
+        <hr> 
+         <button id='br'class="vidchoice modern btn">In the web browser.</button>
+         <span  class="conjunct">OR</span>
+         <button id ='ph'class="vidchoice modern btn">On your mobile device.</button><br><br>
+       
+           <video id='video' mute autoplay loop>
+             <source id='videosrc' src="" type="video/mp4">
+           </video>
+      
+        
+		</div>
+		<br><br><br>
+
+		<div id='price' style="text-align: center;" class="card modern">
+        <h1>Pricing Plans <i id="dollar" class="fas fa-dollar-sign"></i></h1>
+        <span class="h2"> - Choose the plan that's right for you! -</span>
+        <hr>
+        
+     <div id="omgpersonal" class='price'>
+       <i id="cloudlogo" class='fas fa-user'></i>
+       <h1>Personal</h1>
+       Connect your own hardware with the Cloudi systems.
+       <hr>
+       <b>Global</b> Access<br><br>
+       <b>HD</b> Aspect Ratio<br><br>
+       <b>Free</b> Forever<br><br>
+       <b>Community</b> Support<br><br>
+       <b>$0.00</b> Forever<br><br>
+       <b class="hidden">gahrehrhrhte</b><br>
+        
+     </div>
+     <div id="omgpayasyougo" class='price'>
+       <i id="dollar" class='fas fa-clock'></i>
+       <h1>Pay As You Go</h1>
+       Only pay for the Cloudi resources that you use.
+       <hr>
+       All <b>Personal</b> Features<br><br>
+       <b>High-Grade</b> Protection<br><br>
+       <b>4K UHD</b> Aspect Ratio<br><br>
+       <b>Temporary</b> Sessions<br><br>
+       <b>24/7</b> Official Support<br><br>
+       <b>$0.01</b> Per Minute
+      
+     </div>
+     <div id="omgunlimited" class='price' id="omgunlimited">
+       <i id="demo-icon" class='fas fa-rocket'></i>
+       <h1>Unlimited</h1>
+       Permanent access to your very own Cloud PC. 
+       <hr>
+       All <b>Pay-As-You-Go</b> Features<br><br>
+      <b>Permanent</b> Sessions<br><br>
+      <b>Unlimited</b> Storage Space<br><br>
+      <b>High-Grade</b> Hardware<br><br>
+      <b>Instant</b> Provisioning <br><br>
+      <b>$10.00</b> Per Month
+     </div>
+		</div>
+    <br><br><br>
+    <div id='founders' style="text-align: center;" class="card modern">
+        <h1>Founders <i id="founderzz" class="fas fa-user"></i></h1>
+        <span class="h2"> - The People Behind Cloudi -</span>
+        <hr>
+        <div style="width:70%; display: inline-block;">
+        <img style="display: inline-block;" src='r.gif'></img>   <img style="display: inline-block;"  src='l.gif'></img><br>
+      Raghav & Lehuy
+        </div>
+		</div>
+    <br><br><br>
+    <footer>
+      Made with <i id="demo-icon" class="fas fa-heart"></i> by OblivionTech
+      <hr>
+      <i id="subsid">Cloudi is a subsidiary of OblivionTech Inc.</i>
+    </footer>
+
+      <script>
+      
+      document.getElementById('ph').addEventListener('click',phplay)
+      document.getElementById('br').addEventListener('click',brplay)
+
+      function phplay(){
+				document.getElementById('ph').innerText = "Scroll Down";
+				setTimeout(function(){
+					document.getElementById('ph').innerText = "On your mobile device.";
+				}, 1000)
+        document.getElementById('video').style.display = "inline-block";
+        document.getElementById('video').style.animation = "fade-in-up 2s";
+        document.getElementById('video').src = "https://res.cloudinary.com/synapsehub/video/upload/v1548919089/oblivion-cloudi/phone.mp4"
+				window.scrollTo(0,document.body.scrollHeight);
+        document.getElementById('video').play();
+        setTimeout(function(){
+          document.getElementById('video').style.animation = "fade-in-up 2s";
+        }, 2000);
+      }
+      function brplay(){
+				document.getElementById('br').innerText = "Scroll Down";
+				setTimeout(function(){
+					document.getElementById('br').innerText = "In the web browser.";
+				}, 1000)
+        document.getElementById('video').style.display = "inline-block";
+        document.getElementById('video').style.animation = "fade-in-up 2s";
+				window.scrollBy(0, 100);
+        document.getElementById('video').src = "https://res.cloudinary.com/synapsehub/video/upload/v1548918817/oblivion-cloudi/browser.mp4"
+        document.getElementById('video').play();
+        setTimeout(function(){
+          document.getElementById('video').style.animation = "fade-in-up 2s";
+        }, 2000);
+      }
+
+    </script>
+    
+    <script src='script.js'></script>
+  </body>
+</html>
